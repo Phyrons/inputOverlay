@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <defs>
+    <style>
+      .cls-abxy {
+        fill: #bcbcbc;
+		stroke: #000;
+        stroke-width: 5px;
+      }
+
+      .cls-xcolor, .cls-acolor, .cls-bcolor, .cls-ycolor {
+        font-size: 50px;
+        text-anchor: middle;
+        font-family: Pixellari;
+        font-weight: 500;
+      }
+
+      .cls-xcolor {
+        fill: #5e65bd;
+      }
+
+      .cls-acolor {
+        fill: #5ebd60;
+      }
+
+      .cls-bcolor {
+        fill: #bd5e5e;
+      }
+
+      .cls-ycolor {
+        fill: #a2a153;
+      }
+    </style>
+  </defs>
+  <g id="capa-botones">
+  <circle id="X" class="cls-abxy" data-diseño="X" data-diseño-tipo="fill" cx="674" cy="237" r="35"/>
+  <circle id="Xinterno" data-diseño="XInterno" data-diseño-tipo="stroke" cx="674" cy="237" r="30" fill="none" stroke="#5e65bd" stroke-width="5px"/>
+  <text id="X-2" data-name="X" data-diseño="XTexto" data-diseño-tipo="fill" class="cls-xcolor" x="675" y="254"><tspan x="675">X</tspan></text>
+  
+  <circle id="A" class="cls-abxy" data-diseño="A" data-diseño-tipo="fill" cx="737" cy="298" r="35"/>
+  <circle id="Ainterno" data-diseño="AInterno" data-diseño-tipo="stroke" cx="737" cy="298" r="30" fill="none" stroke="#5ebd60" stroke-width="5px"/>
+  <text id="A-2" data-name="A" data-diseño="ATexto" data-diseño-tipo="fill" class="cls-acolor" x="738" y="315"><tspan x="738">A</tspan></text>
+  
+  <circle id="B" class="cls-abxy" data-diseño="B" data-diseño-tipo="fill" cx="805" cy="237" r="35"/>
+  <circle id="Binterno" data-diseño="BInterno" data-diseño-tipo="stroke" cx="805" cy="237" r="30" fill="none" stroke="#bd5e5e" stroke-width="5px"/>
+  <text id="B-2" data-name="B" data-diseño="BTexto" data-diseño-tipo="fill" class="cls-bcolor" x="806" y="254"><tspan x="806">B</tspan></text>
+  
+  <circle id="Y" class="cls-abxy" data-diseño="Y" data-diseño-tipo="fill" cx="737" cy="176" r="35"/>
+  <circle id="Yinterno" data-diseño="YInterno" data-diseño-tipo="stroke" cx="737" cy="176" r="30" fill="none" stroke="#a2a153" stroke-width="5px"/>
+  <text id="Y-2" data-name="Y" data-diseño="YTexto" data-diseño-tipo="fill" class="cls-ycolor" x="738" y="193"><tspan x="738">Y</tspan></text>
+  </g>
+</svg>
