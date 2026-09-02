@@ -1,0 +1,38 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520">
+
+  <g id="capa-gatillos">
+
+    <!-- Botón RT exterior -->
+    <path id="RT" data-diseño="RT" fill-rule="evenodd"
+          fill="#bcbcbc" stroke="#000000" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill markers"
+          d="m674 149c-16.59 0-30-13.41-30-30 0-16.59 13.41-30 30-30 16.59 0 30 13.41 30 30 0 16.59-13.41 30-30 30z"/>
+
+    <!-- Botón RT interior -->
+    <path id="RTbutton" data-diseño="RTbutton" fill-rule="evenodd"
+          fill="#333333"
+          d="m674 144c-13.83 0-25-11.18-25-25 0-13.83 11.17-25 25-25 13.83 0 25 11.18 25 25 0 13.82-11.17 25-25 25z"/>
+
+    <!-- Texto RT -->
+    <text id="RTtext" data-diseño="RTtext" transform="translate(674,128)"
+          font-size="30" fill="#e6e6e6" font-weight="400" font-family="Pixelify Sans, sans-serif">
+      <tspan x="-19" y="2">RT</tspan>
+    </text>
+
+    <!-- Botón LT exterior -->
+    <path id="LT" data-diseño="LT" fill-rule="evenodd"
+          fill="#bcbcbc" stroke="#000000" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill markers"
+          d="m231 149c-16.59 0-30-13.41-30-30 0-16.59 13.41-30 30-30 16.59 0 30 13.41 30 30 0 16.59-13.41 30-30 30z"/>
+
+    <!-- Botón LT interior -->
+    <path id="LTbutton" data-diseño="LTbutton" fill-rule="evenodd"
+          fill="#333333"
+          d="m231 144c-13.83 0-25-11.18-25-25 0-13.83 11.17-25 25-25 13.83 0 25 11.18 25 25 0 13.82-11.17 25-25 25z"/>
+
+    <!-- Texto LT -->
+    <text id="LTtext" data-diseño="LTtext" transform="translate(231,128)"
+          font-size="30" fill="#e6e6e6" font-weight="400" font-family="Pixelify Sans, sans-serif">
+      <tspan x="-17" y="2">LT</tspan>
+    </text>
+
+  </g>
+</svg>

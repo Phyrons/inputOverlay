@@ -1,0 +1,37 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520">
+	<g id="capa-bumpers">
+	
+		<!-- Botón LB exterior -->
+		<path id="LB" data-diseño="LB" fill-rule="evenodd" 
+			fill="#bcbcbc" stroke="#000000" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill markers"
+			d="m292 210c-16.59 0-30-13.41-30-30 0-16.59 13.41-30 30-30 16.59 0 30 13.41 30 30 0 16.59-13.41 30-30 30z"/>
+
+		<!-- Botón LB interior -->
+		<path id="LBbutton" data-diseño="LBbutton" fill-rule="evenodd" 
+			fill="#333333"
+			d="m292 205c-13.83 0-25-11.18-25-25 0-13.82 11.17-25 25-25 13.83 0 25 11.18 25 25 0 13.82-11.17 25-25 25z"/>
+
+		<!-- Texto LB -->
+		<text id="LBtext" data-diseño="LBtext" transform="translate(292,189)" 
+			font-size="30" fill="#e6e6e6" font-weight="400" font-family="Pixelify Sans, sans-serif">
+		<tspan x="-18" y="2">LB</tspan>
+		</text>
+
+		<!-- Botón RB exterior -->
+		<path id="RB" data-diseño="RB" fill-rule="evenodd" 
+			fill="#bcbcbc" stroke="#000000" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill markers"
+			d="m613 210c-16.59 0-30-13.41-30-30 0-16.59 13.41-30 30-30 16.59 0 30 13.41 30 30 0 16.59-13.41 30-30 30z"/>
+
+		<!-- Botón RB interior -->
+		<path id="RBbutton" data-diseño="RBbutton" fill-rule="evenodd" 
+			fill="#333333"
+			d="m613 205c-13.83 0-25-11.18-25-25 0-13.82 11.17-25 25-25 13.83 0 25 11.18 25 25 0 13.82-11.17 25-25 25z"/>
+
+		<!-- Texto RB -->
+		<text id="RBtext" data-diseño="RBtext" transform="translate(613,189)" 
+			font-size="30" fill="#e6e6e6" font-weight="400" font-family="Pixelify Sans, sans-serif">
+		<tspan x="-20" y="2">RB</tspan>
+		</text>
+	
+	</g>
+</svg>

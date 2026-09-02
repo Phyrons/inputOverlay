@@ -1,0 +1,82 @@
+[
+    {
+        "nombre": "Xbox clásico",
+        "archivo": "diseños/default.json"
+    },
+	{
+        "nombre": "Xbox DBD1",
+        "archivo": "diseños/DBD1.json"
+    },
+	{
+        "nombre": "Xbox DBD2",
+        "archivo": "diseños/DBD2.json"
+    },
+	{
+        "nombre": "Xbox TMNT Leo",
+        "archivo": "diseños/TMNTLeo.json"
+    },
+	{
+        "nombre": "Xbox TMNT Rafa",
+        "archivo": "diseños/TMNTRafa.json"
+    },
+	{
+        "nombre": "Xbox TMNT Mikey",
+        "archivo": "diseños/TMNTMikey.json"
+    },
+	{
+        "nombre": "Xbox TMNT Doni",
+        "archivo": "diseños/TMNTDoni.json"
+    },
+	{
+        "nombre": "Xbox Winnie Pooh",
+        "archivo": "diseños/WinniePooh.json"
+    },
+	{
+        "nombre": "Xbox GoW",
+        "archivo": "diseños/GoW.json"
+    },
+	{
+        "nombre": "Xbox GoW2",
+        "archivo": "diseños/GoW2.json"
+    },
+	{
+        "nombre": "Xbox Super Mario",
+        "archivo": "diseños/SMario.json"
+    },
+	{
+        "nombre": "Xbox Super Luigi",
+        "archivo": "diseños/SLuigi.json"
+    },
+	{
+        "nombre": "Xbox Guggimon",
+        "archivo": "diseños/Guggimon.json"
+    },
+	{
+        "nombre": "Xbox Sonic The Hedgehog",
+        "archivo": "diseños/SonicHedgehog.json"
+    },
+	{
+        "nombre": "Xbox Phyrons",
+        "archivo": "diseños/Phyrons.json"
+    },
+    {
+        "nombre": "Xbox B0ommii Evil",
+        "archivo": "diseños/B0ommiiEvil.json"
+    },
+	{
+        "nombre": "Xbox B0ommii IA",
+        "archivo": "diseños/B0ommiiIA.json"
+    },
+	{
+        "nombre": "Xbox Kax-El",
+        "archivo": "diseños/Kax-El.json"
+    },
+	{
+        "nombre": "Xbox Nio107",
+        "archivo": "diseños/Nio107.json"
+    },
+	{
+        "nombre": "Xbox ElCicio420",
+        "archivo": "diseños/ElCicio420.json"
+    }
+]

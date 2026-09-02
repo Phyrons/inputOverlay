@@ -1,0 +1,302 @@
+{
+    "nombre":"Xbox",
+
+    "ruta":"controls/xbox/",
+
+
+    "capas":[
+
+		{
+			"nombre":"cuerpo",
+			"archivo":"cuerpo.svg",
+			"visible":true,
+			"orden":0
+		},
+
+		{
+			"nombre":"botones",
+			"archivo":"botones.svg",
+			"visible":true,
+			"orden":10
+		},
+
+		{
+			"nombre":"sticks",
+			"archivo":"sticks.svg",
+			"visible":true,
+			"orden":20
+		},
+
+		{
+			"nombre":"gatillos",
+			"archivo":"gatillos.svg",
+			"visible":true,
+			"orden":30
+		},
+
+		{
+			"nombre":"dpad",
+			"archivo":"dpad.svg",
+			"visible":true,
+			"orden":40
+		},
+
+		{
+			"nombre":"bumpers",
+			"archivo":"bumpers.svg",
+			"visible":true,
+			"orden":50
+		},
+
+		{
+			"nombre":"master",
+			"archivo":"master.svg",
+			"visible":true,
+			"orden":100
+		}
+	],
+
+
+    "botones":{
+
+        "A":{
+			"indice":0,
+			"svg":"A",
+			"animacion":{
+				"tipo":"glow",
+				"duracion":300,
+				"color":"#00ff66",
+				"opacidad":0.5,
+				"intensidad":10
+			}
+		},
+
+		"B":{
+			"indice":1,
+			"svg":"B",
+			"animacion":{
+				"tipo":"glow",
+				"duracion":300,
+				"color":"#ff3333",
+				"intensidad":12
+			}
+		},
+
+		"X":{
+			"indice":2,
+			"svg":"X",
+			"animacion":{
+				"tipo":"glow",
+				"duracion":300,
+				"color":"#3399ff",
+				"intensidad":10
+			}
+		},
+
+		"Y":{
+			"indice":3,
+			"svg":"Y",
+			"animacion":{
+				"tipo":"glow",
+				"duracion":300,
+				"color":"#ffff33",
+				"intensidad":10
+			}
+		},
+
+        "LB":{
+            "indice":4,
+            "svg":"LB"
+        },
+
+        "RB":{
+            "indice":5,
+            "svg":"RB"
+        },
+
+
+        "BACK":{
+            "indice":8,
+            "svg":"BACK"
+        },
+
+        "START":{
+            "indice":9,
+            "svg":"START"
+        },
+		
+		"HOME":{
+            "indice":16,
+            "svg":"HOME"
+        }
+
+    },
+
+
+    "sticks":{
+
+        "izquierdo":{
+
+            "svg":"stickL",
+
+            "ejeX":0,
+
+            "ejeY":1,
+
+            "origenX":303,
+
+            "origenY":370,
+
+            "deadzone":0.15,
+			
+			"recorrido":25,
+
+            "botonClick":10
+
+        },
+
+
+        "derecho":{
+
+            "svg":"stickR",
+
+            "ejeX":2,
+
+            "ejeY":3,
+
+            "origenX":602,
+
+            "origenY":370,
+
+            "deadzone":0.15,
+			
+			"recorrido":25,
+
+            "botonClick":11
+
+        }
+
+    },
+	
+	"configuracion":{
+
+		"deadzoneDefault":0.15
+
+	},
+
+
+    "triggers":{
+
+        "LT":{
+
+            "indice":6,
+
+            "svg":"LT",
+			
+			"interno":"LTbutton",
+			
+			"texto":"LTtext"
+
+        },
+
+
+        "RT":{
+
+            "indice":7,
+
+            "svg":"RT",
+			
+			"interno":"RTbutton",
+			
+			"texto":"RTtext"
+
+        }
+
+    },
+	
+
+    "dpad":{
+
+        "tipo":"botones",
+
+
+        "arriba":{
+
+            "indice":12,
+
+            "svg":"DUP",
+			
+			"flecha":"FlechaUp"
+
+        },
+
+        "abajo":{
+
+            "indice":13,
+
+            "svg":"DDOWN",
+			
+			"flecha":"FlechaDown"
+
+        },
+
+        "izquierda":{
+
+            "indice":14,
+
+            "svg":"DLEFT",
+			
+			"flecha":"FlechaLeft"
+
+        },
+
+        "derecha":{
+
+            "indice":15,
+
+            "svg":"DRIGHT",
+			
+			"flecha":"FlechaRight"
+
+        }
+
+    },
+	
+	
+	"estilo":{
+
+		"normal":{
+
+			"fill":"#555555",
+
+			"shadow":"none"
+
+		},
+
+		"activo":{
+
+			"fill":"#00ff66",
+
+			"shadow":"drop-shadow(0 0 10px #00ff66)"
+
+		},
+		
+		"stick":{
+
+			"fill":"#00ff66",
+
+			"shadow":"drop-shadow(0 0 12px #00ff66)"
+
+		},
+
+		"trigger":{
+
+			"color":[138,194,255],
+
+			"shadow":"drop-shadow(0 0 15px #8ac2ff)"
+
+		}
+
+	}
+
+}

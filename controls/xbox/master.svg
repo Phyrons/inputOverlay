@@ -1,0 +1,54 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520">
+
+	<g id="capa-master">
+		<!-- Botón START exterior -->
+		<path id="START" data-diseño="START" fill-rule="evenodd"
+			fill="#bcbcbc" stroke="#000000" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill markers"
+			d="m739 448c-16.59 0-30-13.41-30-30 0-16.59 13.41-30 30-30 16.59 0 30 13.41 30 30 0 16.59-13.41 30-30 30z"/>
+
+		<!-- Botón START interior -->
+		<path id="StartButton" data-diseño="StartButton" fill-rule="evenodd"
+			fill="#333333"
+			d="m739 443c-13.83 0-25-11.18-25-25 0-13.82 11.17-25 25-25 13.83 0 25 11.18 25 25 0 13.82-11.17 25-25 25z"/>
+
+		<!-- Texto START -->
+		<text id="StartText" data-diseño="StartText" transform="translate(739,427)"
+			font-size="30" fill="#e6e6e6" font-weight="400" font-family="Pixelify Sans, sans-serif">
+		<tspan x="-20" y="2">ST</tspan>
+		</text>
+
+		<!-- Botón BACK exterior -->
+		<path id="BACK" data-diseño="BACK" fill-rule="evenodd"
+			fill="#bcbcbc" stroke="#000000" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill markers"
+			d="m164 447c-16.59 0-30-13.41-30-30 0-16.59 13.41-30 30-30 16.59 0 30 13.41 30 30 0 16.59-13.41 30-30 30z"/>
+
+		<!-- Botón BACK interior -->
+		<path id="BackButton" data-diseño="BackButton" fill-rule="evenodd"
+			fill="#333333"
+			d="m164 442c-13.83 0-25-11.18-25-25 0-13.82 11.17-25 25-25 13.83 0 25 11.18 25 25 0 13.82-11.17 25-25 25z"/>
+
+		<!-- Texto BACK -->
+		<text id="BackText" data-diseño="BackText" transform="translate(164,426)"
+			font-size="30" fill="#e6e6e6" font-weight="400" font-family="Pixelify Sans, sans-serif">
+		<tspan x="-19" y="2">SL</tspan>
+		</text>
+
+		<!-- Botón HOME exterior -->
+		<path id="HOME" data-diseño="HOME" fill-rule="evenodd"
+			fill="#bcbcbc" stroke="#000000" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill markers"
+			d="m455 452c-16.59 0-30-13.41-30-30 0-16.59 13.41-30 30-30 16.59 0 30 13.41 30 30 0 16.59-13.41 30-30 30z"/>
+
+		<!-- Botón HOME interior -->
+		<path id="HomeButton" data-diseño="HomeButton" fill-rule="evenodd"
+			fill="#333333"
+			d="m455 447c-13.83 0-25-11.18-25-25 0-13.82 11.17-25 25-25 13.83 0 25 11.18 25 25 0 13.82-11.17 25-25 25z"/>
+
+		<!-- Texto HOME -->
+		<text id="HomeText" data-diseño="HomeText" transform="translate(455,431)"
+			font-size="30" fill="#e6e6e6" font-weight="400" font-family="Pixelify Sans, sans-serif">
+		<tspan x="-11" y="2">H</tspan>
+		</text>
+		
+	</g>
+
+</svg>
