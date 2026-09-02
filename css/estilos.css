@@ -1,0 +1,401 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#1a1a1a;
+    color:white;
+    font-family:Segoe UI,Arial,sans-serif;
+}
+
+#app{
+    width:1100px;
+    margin:30px auto;
+}
+
+header{
+    margin-bottom:20px;
+}
+
+h1{
+    text-align:center;
+    font-size:34px;
+}
+
+#panel{
+    background:#262626;
+    padding:0 20px 20px;
+    border-radius:10px;
+    position:relative;
+    z-index:100;
+}
+
+
+/* =====================================================
+   PESTAÑAS
+   ===================================================== */
+
+.tabs{
+    display:flex;
+    gap:4px;
+    border-bottom:1px solid #444;
+    margin:0 -20px 18px;
+    padding:0 20px;
+}
+
+.tab{
+    appearance:none;
+    border:0;
+    border-bottom:3px solid transparent;
+    background:transparent;
+    color:#aaa;
+    padding:13px 24px 11px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.12s;
+}
+
+.tab:hover{
+    color:white;
+    background:#303030;
+}
+
+.tab.activo{
+    color:white;
+    border-bottom-color:#00bfff;
+    background:#303030;
+}
+
+.tab-panel{
+    min-height:58px;
+}
+
+.tab-panel[hidden]{
+    display:none !important;
+}
+
+.config-row{
+    width:100%;
+}
+
+
+/* =====================================================
+   SELECTORES PERSONALIZADOS
+   ===================================================== */
+
+.custom-select{
+    position:relative;
+    width:100%;
+    max-width:700px;
+}
+
+.custom-select-button{
+    width:100%;
+    min-height:42px;
+    padding:10px 14px;
+
+    border:1px solid #4a4a4a;
+    border-radius:7px;
+
+    background:#171717;
+    color:#fff;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    gap:12px;
+    text-align:left;
+
+    font:inherit;
+    font-size:14px;
+
+    cursor:pointer;
+}
+
+.custom-select-button:hover,
+.custom-select.open .custom-select-button{
+    border-color:#00bfff;
+    background:#202020;
+}
+
+.custom-select-arrow{
+    color:#aaa;
+    font-size:16px;
+    transition:transform .12s;
+}
+
+.custom-select.open .custom-select-arrow{
+    transform:rotate(180deg);
+}
+
+.custom-select-options{
+    display:none;
+
+    position:absolute;
+
+    z-index:1000;
+
+    left:0;
+    right:0;
+    top:calc(100% + 5px);
+
+    max-height:260px;
+    overflow-y:auto;
+
+    padding:4px;
+
+    border:1px solid #4a4a4a;
+    border-radius:7px;
+
+    background:#171717;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.45);
+}
+
+.custom-select.open .custom-select-options{
+    display:block;
+}
+
+.custom-option{
+    width:100%;
+
+    display:block;
+
+    padding:10px 12px;
+
+    border:0;
+    border-radius:5px;
+
+    background:transparent;
+    color:#ddd;
+
+    font:inherit;
+    font-size:14px;
+
+    text-align:left;
+
+    cursor:pointer;
+}
+
+.custom-option:hover{
+    background:#303030;
+    color:white;
+}
+
+.custom-option.seleccionado{
+    background:#383838;
+    color:#00bfff;
+}
+
+.custom-option.vacio{
+    color:#777;
+    cursor:default;
+}
+
+
+/* =====================================================
+   INFORMACIÓN
+   ===================================================== */
+
+.info{
+    margin-top:18px;
+
+    display:flex;
+    gap:40px;
+    flex-wrap:wrap;
+
+    color:#aaa;
+    font-size:13px;
+}
+
+.info span{
+    display:block;
+    margin-top:4px;
+    color:white;
+}
+
+.entrada-info{
+    flex-basis:100%;
+}
+
+#entrada{
+    color:#b8e7ff;
+    font-family:Consolas,monospace;
+    font-size:12px;
+}
+
+
+/* =====================================================
+   EDITOR
+   ===================================================== */
+
+#panelEditorImagenesCuerpo{
+    padding:10px;
+
+    background:rgba(0,0,0,.2);
+
+    border-radius:8px;
+
+    margin-bottom:0;
+}
+
+#panelEditorImagenesCuerpo h3{
+    font-size:14px;
+    margin:4px 0 7px;
+}
+
+.fila-editor{
+    margin-bottom:6px;
+
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.fila-editor.centrado{
+    justify-content:center;
+    gap:12px;
+}
+
+.fila-editor label{
+    font-size:12px;
+
+    display:flex;
+    align-items:center;
+
+    gap:4px;
+}
+
+label{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+select,
+input{
+    padding:7px 9px;
+
+    font-size:13px;
+
+    background:#171717;
+    color:white;
+
+    border:1px solid #444;
+    border-radius:5px;
+}
+
+
+/* =====================================================
+   VISOR
+   ===================================================== */
+
+#visor{
+    margin-top:30px;
+}
+
+#canvas{
+    width:900px;
+    height:520px;
+
+    margin:auto;
+
+    border-radius:12px;
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+#controlSVG{
+    position:absolute;
+
+    width:100%;
+    height:100%;
+}
+
+.boton{
+    position:absolute;
+
+    width:45px;
+    height:45px;
+
+    border-radius:50%;
+
+    background:#444;
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    font-size:12px;
+    font-weight:bold;
+
+    transition:.08s;
+
+    user-select:none;
+}
+
+.boton.activo{
+    background:#00ff66;
+    color:#111;
+
+    transform:scale(.85);
+
+    box-shadow:
+        0 0 10px #00ff66,
+        0 0 25px #00ff66;
+}
+
+.stick{
+    position:absolute;
+
+    width:90px;
+    height:90px;
+
+    border-radius:50%;
+
+    background:#333;
+}
+
+.stickCentro{
+    width:35px;
+    height:35px;
+
+    border-radius:50%;
+
+    background:#00bfff;
+
+    position:absolute;
+
+    left:27px;
+    top:27px;
+
+    transition:.05s;
+}
+
+.trigger{
+    position:absolute;
+
+    width:70px;
+    height:25px;
+
+    background:#555;
+
+    border-radius:8px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    font-size:12px;
+
+    transition:.05s;
+}
