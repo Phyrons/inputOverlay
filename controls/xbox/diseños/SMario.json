@@ -1,0 +1,88 @@
+{
+    "nombre": "Xbox rojo",
+
+    "colores": {
+
+		"cuerpo": "#b02828",
+		"brilloCuerpo": "#FFFFFF",
+		"brilloCuerpoOpacidad": 0.2,
+		"cuerpoGradiente1": "#401818",
+		"cuerpoGradiente2": "#c76b6b",
+		
+		"DUP": "#333333",
+		"FlechaUp": "#ffffff",
+
+		"DRIGHT": "#333333",
+		"FlechaRight": "#ffffff",
+
+		"DDOWN": "#333333",
+		"FlechaDown": "#ffffff",
+
+		"DLEFT": "#333333",
+		"FlechaLeft": "#ffffff",
+
+		"stick": "#4a2525",
+		"stickArea": "#b02828",
+		"stickGradiente1": "#401818",
+		"stickGradiente2": "#c76b6b",
+
+		"X": "#AAAEE3",
+		"XInterno": "#5C66FF",
+		"XTexto": "#383C6E",
+
+		"A": "#AAE3B3",
+		"AInterno": "#5CFF67",
+		"ATexto": "#386E41",
+
+		"B": "#E3AAAA",
+		"BInterno": "#FF5C61",
+		"BTexto": "#6E3838",
+
+		"Y": "#E2E3AA",
+		"YInterno": "#FAFF5C",
+		"YTexto": "#6D6E38",
+		
+		"LB": "#bcbcbc",
+        "LBbutton": "#333333",
+        "LBtext": "#e6e6e6",
+
+        "RB": "#bcbcbc",
+        "RBbutton": "#333333",
+        "RBtext": "#e6e6e6",
+		
+		"RT": "#bcbcbc",
+		"RTbutton": "#333333",
+		"RTtext": "#ffffff",
+
+		"LT": "#bcbcbc",
+		"LTbutton": "#333333",
+		"LTtext": "#ffffff",
+
+        "START": "#bcbcbc",
+        "StartButton": "#333333",
+        "StartText": "#e6e6e6",
+
+        "BACK": "#bcbcbc",
+        "BackButton": "#333333",
+        "BackText": "#e6e6e6",
+
+        "HOME": "#bcbcbc",
+        "HomeButton": "#333333",
+        "HomeText": "#e6e6e6"
+	},
+	
+	"imagenesCuerpo": [
+    {
+      "ruta": "controls/xbox/imagenes/superMarioLogo.png",
+      "escala": 0.45,
+      "posX": 319,
+      "posY": 20
+    },
+    {
+      "ruta": "controls/xbox/imagenes/marioCapa.gif",
+      "escala": 0.45,
+      "posX": 305,
+      "posY": 138
+    }
+  ]
+}
