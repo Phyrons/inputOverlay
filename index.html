@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Input Overlay</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<div id="app">
+    <header>
+        <h1>INPUT OVERLAY</h1>
+    </header>
+
+    <section id="panel">
+
+        <nav id="tabs" class="tabs" role="tablist" aria-label="Configuración">
+            <button type="button" class="tab activo" data-tab="control" role="tab" aria-selected="true">
+                Control
+            </button>
+
+            <button type="button" class="tab" data-tab="disenos" role="tab" aria-selected="false">
+                Diseños
+            </button>
+
+            <button type="button" class="tab" data-tab="edicion" role="tab" aria-selected="false">
+                Edición
+            </button>
+        </nav>
+
+        <div id="tabControl" class="tab-panel activo" data-panel="control" role="tabpanel">
+            <div class="config-row">
+
+                <div class="custom-select" id="gamepadCustomSelect">
+
+                    <button
+                        type="button"
+                        class="custom-select-button"
+                        id="gamepadSelectButton"
+                        aria-haspopup="listbox"
+                        aria-expanded="false">
+
+                        <span id="gamepadSelectText">Sin controles</span>
+                        <span class="custom-select-arrow">▾</span>
+
+                    </button>
+
+                    <div
+                        class="custom-select-options"
+                        id="gamepadSelectOptions"
+                        role="listbox"
+                        aria-label="Controles">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div
+            id="tabDisenos"
+            class="tab-panel"
+            data-panel="disenos"
+            role="tabpanel"
+            hidden>
+
+            <div class="config-row">
+
+                <div class="custom-select" id="designCustomSelect">
+
+                    <button
+                        type="button"
+                        class="custom-select-button"
+                        id="designSelectButton"
+                        aria-haspopup="listbox"
+                        aria-expanded="false">
+
+                        <span id="designSelectText">Sin diseños</span>
+                        <span class="custom-select-arrow">▾</span>
+
+                    </button>
+
+                    <div
+                        class="custom-select-options"
+                        id="designSelectOptions"
+                        role="listbox"
+                        aria-label="Diseños">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div
+            id="tabEdicion"
+            class="tab-panel"
+            data-panel="edicion"
+            role="tabpanel"
+            hidden>
+
+            <section id="panelEditorImagenesCuerpo">
+
+                <h3>Editar Logo</h3>
+
+                <div class="fila-editor">
+
+                    <label>
+                        Archivo:
+                        <select id="img1Select"></select>
+                    </label>
+
+                </div>
+
+                <div class="fila-editor centrado">
+
+                    <label>
+                        Escala:
+                        <input
+                            type="number"
+                            id="img1Scale"
+                            step="0.05"
+                            value="0.7">
+                    </label>
+
+                    <label>
+                        Pos X:
+                        <input
+                            type="number"
+                            id="img1PosX"
+                            value="250">
+                    </label>
+
+                    <label>
+                        Pos Y:
+                        <input
+                            type="number"
+                            id="img1PosY"
+                            value="-20">
+                    </label>
+
+                </div>
+
+
+                <h3>Editar Animación</h3>
+
+                <div class="fila-editor">
+
+                    <label>
+                        Archivo:
+                        <select id="img2Select"></select>
+                    </label>
+
+                </div>
+
+                <div class="fila-editor centrado">
+
+                    <label>
+                        Escala:
+                        <input
+                            type="number"
+                            id="img2Scale"
+                            step="0.05"
+                            value="0.5">
+                    </label>
+
+                    <label>
+                        Pos X:
+                        <input
+                            type="number"
+                            id="img2PosX"
+                            value="300">
+                    </label>
+
+                    <label>
+                        Pos Y:
+                        <input
+                            type="number"
+                            id="img2PosY"
+                            value="160">
+                    </label>
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+        <div class="info">
+
+            <div>
+                Modelo
+                <span id="modelo">-</span>
+            </div>
+
+            <div>
+                Estado
+                <span id="estado">Sin conectar</span>
+            </div>
+
+            <div>
+                Perfil
+                <span id="perfil">-</span>
+            </div>
+
+            <div class="entrada-info">
+                Entrada
+                <span id="entrada">-</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="visor">
+
+        <div id="canvas">
+
+            <svg
+                id="controlSVG"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 900 520">
+            </svg>
+
+        </div>
+
+    </section>
+
+</div>
+
+
+<script src="js/perfiles.js"></script>
+<script src="js/designManager.js"></script>
+<script src="js/gamepad.js"></script>
+<script src="js/detector.js"></script>
+<script src="js/svgLoader.js"></script>
+<script src="js/capas.js"></script>
+
+<script src="js/animation/eventBus.js"></script>
+<script src="js/renderers/baseRenderer.js"></script>
+
+<script src="js/animation/baseAnimation.js"></script>
+<script src="js/animation/pulseAnimation.js"></script>
+<script src="js/animation/glowAnimation.js"></script>
+
+<script src="js/animation/animationFactory.js"></script>
+<script src="js/animation/animationManager.js"></script>
+
+<script src="js/renderers/buttonRenderer.js"></script>
+<script src="js/renderers/stickRenderer.js"></script>
+<script src="js/renderers/triggerRenderer.js"></script>
+<script src="js/renderers/dpadRenderer.js"></script>
+
+<script src="js/renderer.js"></script>
+<script src="js/editor.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
